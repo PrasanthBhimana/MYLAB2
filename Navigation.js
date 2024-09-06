@@ -1,13 +1,10 @@
-// App.js
 import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { NavigationContainer } from '@react-navigation/native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-
-// Import Screens
-import HomeScreen from './HomeScreen';
-import ProfileScreen from './ProfileScreen';
-import SettingsScreen from './SettingsScreen';
+import HomeScreen from './HomeScreen'; // Replace with your home screen component
+import ProfileScreen from './ProfileScreen'; // Replace with your profile screen component
+import SettingsScreen from './SettingsScreen'; // Replace with your settings screen component
 
 const Tab = createBottomTabNavigator();
 
